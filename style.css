@@ -1,0 +1,111 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #8ca63d;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+center {
+    margin: 0;
+    padding: 0;
+}
+
+.mid {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 45px;
+    font-weight: 900;
+    text-shadow: 0px 5px rgba(0,0,0,0.4);
+    
+    transform: perspective(100px) rotateX(20deg);
+}
+
+.big {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 120px;
+    font-weight: 900;
+    text-shadow: 0px 8px rgba(0,0,0,0.4);
+
+    transform: perspective(100px) rotateX(20deg);
+}
+
+.end {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 30px;
+    font-weight: 900;
+    text-shadow: 0px -6px rgba(0,0,0,0.4);
+    text-decoration-line: underline;
+
+    transform: perspective(200px) rotateX(-10deg);
+}
+
+.end a {
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .easteregg {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.start {
+    width: 500px;
+    height: 100px;
+    margin: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 10px;
+    animation: glowing 300ms infinite;
+}
+
+.arrow {
+    width: 150px;
+}
+
+.arrow1 {
+    cursor: default;
+    width: 150px;
+    transform: rotate(180deg);
+}
+
+
+.TeamName {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+}
+
+
+@keyframes glowing {
+    0% {
+      background-color: #ffffff;
+    }
+    50% {
+      background-color: #eeff00;
+    }
+    100% {
+      background-color: #ffffff;
+    }
+}
