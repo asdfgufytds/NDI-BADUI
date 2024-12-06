@@ -4,7 +4,7 @@ function autoScroll() {
     let scrollPosition = 0;
 
     const interval = setInterval(() => {
-        scrollPosition += 10;
+        scrollPosition += 1;
         container.scrollTop = scrollPosition;
 
         if (scrollPosition >= content.scrollHeight - container.clientHeight) {
